@@ -7,6 +7,12 @@ import {
   MDBTabsContent,
   MDBTabsPane,
 } from "mdb-react-ui-kit";
+import DataVisualization from "./skillsInDepth/DataVisualization";
+import RDBMS from "./skillsInDepth/RDBMS";
+import Programming from "./skillsInDepth/Programming";
+import DataScience from "./skillsInDepth/DataScience";
+import WebDev from "./skillsInDepth/WebDev";
+import DataAnalysis from "./skillsInDepth/DataAnalysis";
 
 export default function () {
   const [iconsActive, setIconsActive] = useState("pill1");
@@ -48,24 +54,24 @@ export default function () {
         </MDBTabsItem>
         <MDBTabsItem>
           <MDBTabsLink
-            onClick={() => handleIconsClick("pill1")}
-            active={iconsActive === "pill1"}
+            onClick={() => handleIconsClick("pill4")}
+            active={iconsActive === "pill4"}
           >
             <MDBIcon fas icon="laptop" className="me-2" /> Programming
           </MDBTabsLink>
         </MDBTabsItem>
         <MDBTabsItem>
           <MDBTabsLink
-            onClick={() => handleIconsClick("pill2")}
-            active={iconsActive === "pill2"}
+            onClick={() => handleIconsClick("pill5")}
+            active={iconsActive === "pill5"}
           >
             <MDBIcon fas icon="database" className="me-2" /> RDBMS
           </MDBTabsLink>
         </MDBTabsItem>
         <MDBTabsItem>
           <MDBTabsLink
-            onClick={() => handleIconsClick("pill3")}
-            active={iconsActive === "pill3"}
+            onClick={() => handleIconsClick("pill6")}
+            active={iconsActive === "pill6"}
           >
             <MDBIcon fas icon="chart-pie" className="me-2" /> Data Visualization
           </MDBTabsLink>
@@ -73,9 +79,24 @@ export default function () {
       </MDBTabs>
 
       <MDBTabsContent>
-        <MDBTabsPane show={iconsActive === "pill1"}>Tab 1 content</MDBTabsPane>
-        <MDBTabsPane show={iconsActive === "pill2"}>Tab 2 content</MDBTabsPane>
-        <MDBTabsPane show={iconsActive === "pill3"}>Tab 3 content</MDBTabsPane>
+        <MDBTabsPane show={iconsActive === "pill1"}>
+          <DataAnalysis />
+        </MDBTabsPane>
+        <MDBTabsPane show={iconsActive === "pill2"}>
+          <DataScience />
+        </MDBTabsPane>
+        <MDBTabsPane show={iconsActive === "pill3"}>
+          <WebDev />
+        </MDBTabsPane>
+        <MDBTabsPane show={iconsActive === "pill4"}>
+          <Programming />
+        </MDBTabsPane>
+        <MDBTabsPane show={iconsActive === "pill5"}>
+          <RDBMS />
+        </MDBTabsPane>
+        <MDBTabsPane show={iconsActive === "pill6"}>
+          <DataVisualization />
+        </MDBTabsPane>
       </MDBTabsContent>
     </>
   );
