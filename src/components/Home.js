@@ -1,5 +1,5 @@
 import React from "react";
-
+import Skills from "./Skills";
 function Home() {
   return (
     <div class="newsec">
@@ -10,6 +10,7 @@ function Home() {
         urgent problems. I look foward to joining a like-minded team and create
         value together.
       </p>
+      <Skills />
     </div>
   );
 }

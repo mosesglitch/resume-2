@@ -20,8 +20,8 @@ function NavBar() {
             <Nav.Link as={Link} to="/experience">
               Experience
             </Nav.Link>
-            <Nav.Link as={Link} to="/skills">
-              Skills
+            <Nav.Link as={Link} to="/academics">
+              Academics
             </Nav.Link>
             <Nav.Link as={Link} to="/projects">
               Projects

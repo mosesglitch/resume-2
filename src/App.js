@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
-import Skills from "./components/Skills";
+import Academics from "./components/Academics";
 import Projects from "./components/Projects";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route exact path="/experience" element={<Experience />} />
-          <Route exact path="/skills" element={<Skills />} />
+          <Route exact path="/academics" element={<Academics />} />
           <Route exact path="/projects" element={<Projects />} />
         </Routes>
         <Footer />
