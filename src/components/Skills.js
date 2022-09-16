@@ -8,7 +8,7 @@ import {
   MDBTabsPane,
 } from "mdb-react-ui-kit";
 
-export default function Skills() {
+export default function () {
   const [iconsActive, setIconsActive] = useState("pill1");
 
   const handleIconsClick = (value: string) => {
@@ -27,7 +27,7 @@ export default function Skills() {
             onClick={() => handleIconsClick("pill1")}
             active={iconsActive === "pill1"}
           >
-            <MDBIcon fas icon="chart-pie" className="me-2" /> Sales
+            <MDBIcon fas icon="table" className="me-2" /> Data Analysis
           </MDBTabsLink>
         </MDBTabsItem>
         <MDBTabsItem>
@@ -35,7 +35,7 @@ export default function Skills() {
             onClick={() => handleIconsClick("pill2")}
             active={iconsActive === "pill2"}
           >
-            <MDBIcon fas icon="chart-line" className="me-2" /> Subscriptions
+            <MDBIcon fas icon="chart-line" className="me-2" /> Data Science
           </MDBTabsLink>
         </MDBTabsItem>
         <MDBTabsItem>
@@ -43,7 +43,31 @@ export default function Skills() {
             onClick={() => handleIconsClick("pill3")}
             active={iconsActive === "pill3"}
           >
-            <MDBIcon fas icon="cogs" className="me-2" /> Settings
+            <MDBIcon fas icon="globe" className="me-2" /> Web Development
+          </MDBTabsLink>
+        </MDBTabsItem>
+        <MDBTabsItem>
+          <MDBTabsLink
+            onClick={() => handleIconsClick("pill1")}
+            active={iconsActive === "pill1"}
+          >
+            <MDBIcon fas icon="laptop" className="me-2" /> Programming
+          </MDBTabsLink>
+        </MDBTabsItem>
+        <MDBTabsItem>
+          <MDBTabsLink
+            onClick={() => handleIconsClick("pill2")}
+            active={iconsActive === "pill2"}
+          >
+            <MDBIcon fas icon="database" className="me-2" /> RDBMS
+          </MDBTabsLink>
+        </MDBTabsItem>
+        <MDBTabsItem>
+          <MDBTabsLink
+            onClick={() => handleIconsClick("pill3")}
+            active={iconsActive === "pill3"}
+          >
+            <MDBIcon fas icon="chart-pie" className="me-2" /> Data Visualization
           </MDBTabsLink>
         </MDBTabsItem>
       </MDBTabs>

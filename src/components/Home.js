@@ -3,7 +3,7 @@ import Skills from "./Skills";
 function Home() {
   return (
     <div class="newsec">
-      <p class="tops">
+      <p className="tops">
         A highly motivated and hard-working individual with a strong
         understanding of key business concepts.I have a strong belief in how
         data and technology can help us work together better, innovate and solve
