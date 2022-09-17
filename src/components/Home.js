@@ -2,49 +2,37 @@ import React from "react";
 import Skills from "./Skills";
 import CarouselNew from "./CarouselNew";
 import Container from "react-bootstrap/Container";
-import DataVisualization from "./skillsInDepth/DataVisualization";
-import RDBMS from "./skillsInDepth/RDBMS";
-import Programming from "./skillsInDepth/Programming";
-import DataScience from "./skillsInDepth/DataScience";
-import WebDev from "./skillsInDepth/WebDev";
-import DataAnalysis from "./skillsInDepth/DataAnalysis";
 
 const inskill = [
   {
     id: 1,
     icon: "table",
-    item: "DataAnalysis",
-    comp: <DataAnalysis />,
+    item: "Data Analysis",
   },
   {
     id: 2,
     icon: "chart-line",
-    item: "DataScience",
-    comp: <DataScience />,
+    item: "Data Science",
   },
   {
     id: 3,
     icon: "globe",
     item: "Web Development",
-    comp: <WebDev />,
   },
   {
     id: 4,
     icon: "database",
     item: "RDBMS",
-    comp: <RDBMS />,
   },
   {
     id: 5,
     icon: "laptop",
     item: "Programming",
-    comp: <Programming />,
   },
   {
     id: 6,
     icon: "chart-pie",
     item: "Data Visualization",
-    comp: <DataVisualization />,
   },
 ];
 class Home extends React.Component {

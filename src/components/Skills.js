@@ -1,28 +1,21 @@
-import React, { useState } from "react";
-import {
-  MDBIcon,
-  MDBTabs,
-  MDBTabsItem,
-  MDBTabsLink,
-  MDBTabsContent,
-  MDBTabsPane,
-} from "mdb-react-ui-kit";
+import React from "react";
+import { MDBIcon, MDBTabs, MDBTabsItem, MDBTabsLink } from "mdb-react-ui-kit";
+import SkillsInDepth from "./SkillsInDepth";
 
 class Skills extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeskill: this.props.inskill[0]["comp"],
-      skilldisplay: this.props.skilldisplay,
-      trialstate: "red",
+      iconsActive: 1,
+      activeskill: this.props.inskill[0]["item"],
     };
     this.handleIconsClick = this.handleIconsClick.bind();
   }
   handleIconsClick = (e) => {
-    const newActiveSkill = this.props.inskill[e - 1]["comp"];
+    const newActiveSkill = this.props.inskill[e - 1]["item"];
     this.setState((state, props) => ({
       activeskill: newActiveSkill,
-      trialstate: "blue",
+      iconsActive: e,
     }));
   };
   render() {
@@ -30,28 +23,20 @@ class Skills extends React.Component {
       <MDBTabsItem key={i}>
         <MDBTabsLink
           onClick={(e) => this.handleIconsClick(skill.id)}
-          // active={iconsActive==}
-          // active={iconsActive === this.state.activeskill}
+          active={this.state.iconsActive === i + 1}
         >
           <MDBIcon fas icon={skill.icon} className="me-2" /> {skill.item}
         </MDBTabsLink>
       </MDBTabsItem>
     ));
-    const aptitude = this.state.trialstate;
 
     return (
       <>
         <MDBTabs pills className="mb-3">
           {skilllist}
         </MDBTabs>
-        <MDBTabsContent show={this.state.trialstate === this.state.trialstate}>
-          {/* <MDBTabsPane show={iconsActive === "pill6"}> */}
-          <MDBTabsPane>
-            {aptitude}
-            <h1>What is this</h1>
-            {console.log(aptitude)}
-          </MDBTabsPane>
-        </MDBTabsContent>
+
+        <SkillsInDepth selectedSkill={this.state.activeskill} />
       </>
     );
   }
