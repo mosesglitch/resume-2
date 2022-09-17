@@ -6,6 +6,9 @@
   margin: 0;
   padding: 0;
 }
+.sid {
+  display: inline-block;
+}
 .page-container {
   position: relative;
   min-height: 100vh;
@@ -31,9 +34,9 @@ img {
   color: black;
   font-size: 20px;
 }
-.academics {
+/* .academics {
   text-align: left;
-}
+} */
 .navbar {
   padding-top: 0 !important;
   padding-bottom: 0 !important;

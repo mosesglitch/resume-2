@@ -4,13 +4,16 @@ import Carousel from "react-bootstrap/Carousel";
 function CarouselNew() {
   return (
     <div
-      style={{
-        // display: "block",
-        width: "700px",
-        margin: "auto",
-        height: "50px",
-        padding: "50px",
-      }}
+      className="newsec"
+      style={
+        {
+          // display: "block",
+          // width: "700px",
+          // margin: "auto",
+          // height: "50px",
+          // padding: "50px",
+        }
+      }
     >
       <h4>React-Bootstrap Carousel Component</h4>
       <Carousel>

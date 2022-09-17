@@ -14,7 +14,7 @@ import DataScience from "./skillsInDepth/DataScience";
 import WebDev from "./skillsInDepth/WebDev";
 import DataAnalysis from "./skillsInDepth/DataAnalysis";
 
-export default function () {
+export default function Skills() {
   const [iconsActive, setIconsActive] = useState("pill1");
 
   const handleIconsClick = (value: string) => {
