@@ -26,7 +26,7 @@ const inskill = [
   },
   {
     id: 5,
-    icon: "laptop",
+    icon: "laptop-code",
     item: "Programming",
   },
   {
@@ -50,7 +50,7 @@ class Home extends React.Component {
 
           <Skills name={"paps"} inskill={inskill} />
 
-          {/* <CarouselNew /> */}
+          <CarouselNew />
         </div>
       </Container>
     );

@@ -5,38 +5,24 @@ import {
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
+  MDBIcon,
   MDBCardGroup,
 } from "mdb-react-ui-kit";
 
 class Projectlist extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
-    const projectdict = [
-      {
-        src: "https://mdbootstrap.com/img/new/standard/city/041.webp",
-        title: "Fyurr",
-        text: "Artists meet Venues",
-      },
-      {
-        src: "https://mdbootstrap.com/img/new/standard/city/042.webp",
-        title: "Trivia",
-        text: "Quiz game with cross origin resource sharing",
-      },
-      {
-        src: "https://mdbootstrap.com/img/new/standard/city/043.webp",
-        title: "Coffee shop",
-        text: "Access management with users,roles and RBAC using Auth0",
-      },
-    ];
-    const how = "however";
-    console.log(projectdict);
-    const projectmap = projectdict.map((project) => (
+    const projectmap = this.props.projectdict.map((project) => (
       <MDBCard>
         <MDBCardImage src={project.src} alt="..." position="top" />
         <MDBCardBody>
           <MDBCardTitle>{project.title}</MDBCardTitle>
           <MDBCardText>{project.text}</MDBCardText>
           <MDBCardText>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <MDBIcon far icon="file-code" />
+            <a href={project.code} className="stretched-link"></a>
           </MDBCardText>
         </MDBCardBody>
       </MDBCard>
