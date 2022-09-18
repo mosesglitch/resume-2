@@ -11,7 +11,7 @@ class NavBar extends React.Component {
     return (
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
         <Row>
-          <Col className="tabrow" sm={2}>
+          <Col className="tabrow" sm={3}>
             <Nav variant="pills" className="flex-column">
               <Nav.Item>
                 <Nav.Link eventKey="first">Home</Nav.Link>

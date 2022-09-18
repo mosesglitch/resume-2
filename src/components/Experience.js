@@ -45,7 +45,7 @@ class Experience extends React.Component {
               predictive or forecasting purposes.
             </li>
           </ul>
-          <br />
+          <hr className="hrs" />
 
           <h6>Quipbank Trust Limited / VAELL</h6>
           <li>
