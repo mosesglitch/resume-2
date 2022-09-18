@@ -57,11 +57,9 @@ class SkillsInDepth extends Component {
     const tools = skillsInDepth[this.props.selectedSkill].map((tool, i) => (
       <MDBCardText key={i}>{tool}</MDBCardText>
     ));
-    console.log(tools);
 
     return (
       <div>
-        {console.log(skillsInDepth[this.props.selectedSkill])}
         <MDBCard>
           <MDBCardBody>
             <MDBCardTitle>{this.props.selectedSkill}</MDBCardTitle>

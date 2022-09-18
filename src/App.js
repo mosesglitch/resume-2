@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 class App extends React.Component {
   render() {
     return (

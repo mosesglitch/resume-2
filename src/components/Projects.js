@@ -3,21 +3,21 @@ import Projectlist from "./Projectlist";
 import Container from "react-bootstrap/Container";
 const projectdict = [
   {
-    src: "https://cdn2.vectorstock.com/i/1000x1000/09/61/musician-playing-music-together-music-band-vector-22690961.jpg",
+    src: "https://media.istockphoto.com/photos/large-concert-hall-all-lit-up-picture-id147332504?b=1&k=20&m=147332504&s=170667a&w=0&h=6GfhOezKSBnaaGlDpq9l9Xu4m38TP0m2kANDMd7rBeU=",
     title: "Fyurr",
-    text: "Artists meet Venues",
+    text: "Social",
     code: "https://github.com/mosesglitch/Fyyur",
   },
   {
-    src: "https://mdbootstrap.com/img/new/standard/city/042.webp",
+    src: "https://i0.wp.com/blockchainstock.blob.core.windows.net/article/5D146F6CA305F21597C0C59C4260B21CFE13B2B2A90E664E63DE8990A787D9A4.jpg?resize=696%2C365&ssl=1",
     title: "Trivia",
-    text: "Quiz game with cross origin resource sharing",
+    text: "Fun",
     code: "https://github.com/mosesglitch/trivia_app",
   },
   {
-    src: "https://springboard-cdn.appadvice.com/generated-app-plays/618125951/170323968-half-thumb/00001.jpg",
+    src: "https://cdn.pixabay.com/photo/2016/11/29/12/54/cafe-1869656__340.jpg",
     title: "Coffee shop",
-    text: "Access management with users,roles and RBAC using Auth0",
+    text: "Entreprise",
     code: "https://github.com/mosesglitch/Coffee-shop-app",
   },
 ];

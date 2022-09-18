@@ -5,7 +5,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Academics from "./Academics";
 import Col from "react-bootstrap/Col";
-import "./styles/Index.css";
+
 class NavBar extends React.Component {
   render() {
     return (
@@ -32,6 +32,7 @@ class NavBar extends React.Component {
               <Tab.Pane eventKey="first">
                 <Home />
               </Tab.Pane>
+
               <Tab.Pane eventKey="second">
                 <Experience />
               </Tab.Pane>

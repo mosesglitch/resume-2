@@ -5,22 +5,23 @@
 #left-tabs-example {
   background-color: blue;
 }
+.homepage > .newsec > h1 {
+  color: blue;
+  padding: 0;
+}
 .tabrow {
   font-weight: bold;
   font-size: 30px;
   color: purple;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
 .newsec {
-  /* margin-block-start: 1em;
-  margin-block-end: 1em; */
-  /* margin-inline-start: 0px; */
-  /* margin-inline-end: 0px; */
   padding-inline-start: 20px;
   padding-inline-end: 10px;
   background-color: rgba(224, 224, 224, 0.1);
   padding-top: 50px;
-  font-size: 25;
+  font-size: 40;
   color: black;
   font-size: 20px;
 }
@@ -42,23 +43,36 @@ li > h6 {
   position: relative;
   min-height: 100vh;
 }
+.homeassets > H4 {
+  color: blue;
+  padding-top: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; /* font-weight: 30; */
+  text-align: left;
+
+  padding-bottom: 0px;
+}
+.carousel {
+  padding-bottom: 50px;
+}
+.innercarousel {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 img {
   height: 250px;
   width: 300px;
 }
 .content-wrap {
-  padding-bottom: 2.5rem; /* Footer height */
+  padding-bottom: 2.5rem;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem; /* Footer height */
+  height: 2.5rem;
 }
-/* .academics {
-  text-align: left;
-} */
+
 .navbar {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -70,6 +84,9 @@ body {
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: rgba(224, 224, 224, 0.1);
+}
+.hrs {
+  opacity: 0.04;
 }
 a {
   color: black;
@@ -89,6 +106,7 @@ li {
   background-color: rgba(224, 224, 224, 0.2);
   border-radius: 10px;
   padding: 20px green;
+  padding-bottom: 50px;
 }
 
 .academics > h6 {
@@ -113,6 +131,9 @@ li {
   font-family: cursive;
   text-align: left;
   color: teal;
+}
+#work {
+  padding-bottom: 70px;
 }
 
 .certs > li {

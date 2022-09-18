@@ -8,14 +8,14 @@ import {
   MDBIcon,
   MDBCardGroup,
 } from "mdb-react-ui-kit";
-
+import Container from "react-bootstrap/Container";
 class Projectlist extends React.Component {
   constructor(props) {
     super(props);
   }
   render() {
-    const projectmap = this.props.projectdict.map((project) => (
-      <MDBCard>
+    const projectmap = this.props.projectdict.map((project, i) => (
+      <MDBCard key={i}>
         <MDBCardImage src={project.src} alt="..." position="top" />
         <MDBCardBody>
           <MDBCardTitle>{project.title}</MDBCardTitle>
@@ -27,7 +27,11 @@ class Projectlist extends React.Component {
         </MDBCardBody>
       </MDBCard>
     ));
-    return <MDBCardGroup>{projectmap}</MDBCardGroup>;
+    return (
+      <Container>
+        <MDBCardGroup>{projectmap}</MDBCardGroup>
+      </Container>
+    );
   }
 }
 export default Projectlist;

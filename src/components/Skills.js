@@ -31,13 +31,14 @@ class Skills extends React.Component {
     ));
 
     return (
-      <>
+      <div className="homeassets">
+        <h4>Interests</h4>
         <MDBTabs pills className="mb-3">
           {skilllist}
         </MDBTabs>
 
         <SkillsInDepth selectedSkill={this.state.activeskill} />
-      </>
+      </div>
     );
   }
 }
