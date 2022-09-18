@@ -1,6 +1,9 @@
 {
   "name": "resume",
   "version": "0.1.0",
+  "engines": {
+    "node": "6.11.1"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -10,15 +13,17 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.1",
     "bootstrap-css-only": "^4.4.1",
+    "jquery": "^3.6.1",
     "mdb-react-ui-kit": "^4.2.0",
     "mdbreact": "^4.6.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^16.14.0",
     "react-router-bootstrap": "^0.26.2",
     "react-router-dom": "^6.4.0",
     "react-scripts": "^2.1.3",
     "sass": "^1.54.9",
+    "scheduler": "^0.19.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -51,7 +56,7 @@
     "type": "git",
     "url": "git+https://github.com/mosesglitch/resume-react.git"
   },
-  "author": "",
+  "author": "moses g.w",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mosesglitch/resume-react/issues"
