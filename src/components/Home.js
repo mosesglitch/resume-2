@@ -40,6 +40,7 @@ class Home extends React.Component {
     return (
       <Container>
         <div class="newsec">
+          <h1>Moses.G.Wachira</h1>
           <p className="tops">
             A highly motivated and hard-working individual with a strong
             understanding of key business concepts.I have a strong belief in how

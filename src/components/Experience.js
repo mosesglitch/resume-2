@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import "./styles/Experience.css";
 import "./styles/Index.css";
 
 class Experience extends React.Component {
@@ -20,7 +19,7 @@ class Experience extends React.Component {
             <span>Mwanza,Tz</span>
           </li>
           <h6>Responsibilities</h6>
-          <ul className="edu">
+          <ul className="experienceul">
             <li>
               Mining data from primary and secondary sources, then reorganizing
               said data in a format that can be easily read by either human or

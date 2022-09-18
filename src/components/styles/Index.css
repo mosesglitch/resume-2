@@ -2,16 +2,42 @@
   text-align: left;
   color: black;
 }
+#left-tabs-example {
+  background-color: blue;
+}
+.tabrow {
+  font-weight: bold;
+  font-size: 30px;
+  color: purple;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.newsec {
+  /* margin-block-start: 1em;
+  margin-block-end: 1em; */
+  /* margin-inline-start: 0px; */
+  /* margin-inline-end: 0px; */
+  padding-inline-start: 20px;
+  padding-inline-end: 10px;
+  background-color: rgba(224, 224, 224, 0.1);
+  padding-top: 50px;
+  font-size: 25;
+  color: black;
+  font-size: 20px;
+}
+.newsec > h6,
+li > h6 {
+  padding-top: 10px;
+  color: rgb(24, 24, 59);
+}
+.flex {
+  color: yellowgreen;
+}
 * {
   margin: 0;
   padding: 0;
+  margin-top: 10px;
 }
-.selectedtab {
-  background-color: blue;
-}
-.sid {
-  display: inline-block;
-}
+
 .page-container {
   position: relative;
   min-height: 100vh;
@@ -29,13 +55,6 @@ img {
   bottom: 0;
   width: 100%;
   height: 2.5rem; /* Footer height */
-}
-.newsec {
-  background-color: rgba(224, 224, 224, 0.1);
-  padding-top: 50px;
-  font-size: 25;
-  color: black;
-  font-size: 20px;
 }
 /* .academics {
   text-align: left;
@@ -63,9 +82,6 @@ h1 {
 h5 {
   color: rgb(35, 83, 226);
 }
-h6 {
-  color: rgb(24, 24, 59);
-}
 li {
   list-style: none;
 }
@@ -74,9 +90,7 @@ li {
   border-radius: 10px;
   padding: 20px green;
 }
-/* .navo {
-  height: 30px;
-} */
+
 .academics > h6 {
   padding-bottom: 0px;
   border-bottom: 0px;
@@ -89,40 +103,18 @@ li {
 .academics > li > span {
   display: block;
 }
-.navbar-brand {
-  font-weight: bolder;
-  color: yellowgreen;
-}
-.navbar a,
-.navbar {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
+
 #work > li > span {
   font-family: cursive;
   text-align: right;
-  /* color: rgb(2, 9, 70); */
+  color: teal;
 }
 #work > li > i {
   font-family: cursive;
   text-align: left;
-  /* color: rgb(2, 9, 70); */
+  color: teal;
 }
-#referees > li {
-  display: block;
-  margin-bottom: 1.1em;
-}
-#referees > li > span {
-  display: block;
-  padding: 0;
-}
-.navbar {
-  min-height: 40px !important
-;
-}
-#contact {
-  background-color: azure;
-}
+
 .certs > li {
   list-style-type: square;
 }
@@ -131,19 +123,12 @@ li {
   padding: 5px;
   border: 0;
 }
-.edu > li {
-  list-style-type: circle;
-  list-style-position: inside;
-}
-.hobby {
-  display: inline-block;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-.hobby > ul > li {
-  text-align: left;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.hobby > ul > li > i {
-  text-align: left;
-  color: navy;
+.experienceul,
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style-type: square;
 }
