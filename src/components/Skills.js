@@ -22,7 +22,7 @@ class Skills extends React.Component {
     const skilllist = this.props.inskill.map((skill, i) => (
       <MDBTabsItem key={i}>
         <MDBTabsLink
-          onClick={(e) => this.handleIconsClick(skill.id)}
+          onMouseOver={(e) => this.handleIconsClick(skill.id)}
           active={this.state.iconsActive === i + 1}
         >
           <MDBIcon fas icon={skill.icon} className="me-2" /> {skill.item}
