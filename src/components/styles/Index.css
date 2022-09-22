@@ -12,7 +12,6 @@
 .tabrow {
   font-weight: bold;
   text-align: left;
-  /* font-size: 30px; */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border-right: 100px;
 }
@@ -44,7 +43,7 @@ li > h6 {
   position: relative;
   min-height: 100vh;
 }
-.homeassets > H4 {
+.homeassets > h4 {
   color: blue;
   padding-top: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; /* font-weight: 30; */
@@ -92,7 +91,6 @@ a {
 }
 h1 {
   color: rgb(24, 24, 59);
-  /* font-family: cursive; */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 h5 {
