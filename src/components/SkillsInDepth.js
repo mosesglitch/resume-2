@@ -4,8 +4,6 @@ import {
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
-  MDBCardImage,
-  MDBBtn,
 } from "mdb-react-ui-kit";
 let skillsInDepth = {
   "Data Analysis": [
@@ -49,10 +47,6 @@ let skillsInDepth = {
 };
 
 class SkillsInDepth extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const tools = skillsInDepth[this.props.selectedSkill].map((tool, i) => (
       <MDBCardText key={i}>{tool}</MDBCardText>

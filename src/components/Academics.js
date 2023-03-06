@@ -14,7 +14,7 @@ class Academics extends React.Component {
                 <div className="academics">
                   <h5>ACADEMIC QUALIFICATIONS</h5>
                   <h6>
-                    <b> 2022: Nanodegree (Ongoing) , FullstackWeb developer</b>
+                    <b> 2022: Nanodegree , FullstackWeb developer</b>
                   </h6>
                   <li>Institution: ALX Programme (Udacity)</li>
                   <h6>

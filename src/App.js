@@ -8,12 +8,16 @@ import Container from "react-bootstrap/Container";
 class App extends React.Component {
   render() {
     return (
-      <Container>
-        <div className="page-container">
-          <NavBar />
-          <Footer />
-        </div>
-      </Container>
+      <div>
+        <Container>
+          <div className="page-container">
+            <NavBar />
+          </div>
+        </Container>
+        {/* <div style={{ paddingTop: 50 }}> */}
+        <Footer />
+        {/* </div> */}
+      </div>
     );
   }
 }

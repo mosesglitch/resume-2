@@ -3,14 +3,16 @@ import Carousel from "react-bootstrap/Carousel";
 import chess from "./images/chess.jpg";
 import learn from "./images/learn2.jpg";
 import music from "./images/music.jpg";
-import film from "./images/film.jpg";
 import film2 from "./images/film2.jpg";
 import "./styles/Index.css";
 
 class CarouselNew extends React.Component {
   render() {
     return (
-      <div className="carousel">
+      <div
+        className="carousel"
+        // style={{ paddingBottom: 50, backgroundColor: "pink", marginBottom: 50 }}
+      >
         <div className="homeassets">
           <h4>Hobbies</h4>
           <div className="innercarousel">
