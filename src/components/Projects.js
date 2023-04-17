@@ -1,7 +1,14 @@
 import React from "react";
 import Projectlist from "./Projectlist";
 import Container from "react-bootstrap/Container";
+import servio from "./servio.png";
 const projectdict = [
+  {
+    src: servio,
+    title: "Servio",
+    text: "E-commerce",
+    code: "https://github.com/mosesglitch/Servio-React-Flask-Project.git",
+  },
   {
     src: "https://media.istockphoto.com/photos/large-concert-hall-all-lit-up-picture-id147332504?b=1&k=20&m=147332504&s=170667a&w=0&h=6GfhOezKSBnaaGlDpq9l9Xu4m38TP0m2kANDMd7rBeU=",
     title: "Fyurr",
@@ -16,8 +23,8 @@ const projectdict = [
   },
   {
     src: "https://cdn.pixabay.com/photo/2016/11/29/12/54/cafe-1869656__340.jpg",
-    title: "Coffee shop",
-    text: "Entreprise",
+    title: "Coffee shop app",
+    text: "E-commerce",
     code: "https://github.com/mosesglitch/Coffee-shop-app",
   },
 ];

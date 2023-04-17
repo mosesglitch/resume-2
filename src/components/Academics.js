@@ -11,16 +11,16 @@ class Academics extends React.Component {
           <MDBRow>
             <MDBCol>
               <div className="newsec">
-                <div className="academics">
-                  <h5>ACADEMIC QUALIFICATIONS</h5>
+                <div className="academics ">
+                  <h5 className="pb-3">ACADEMIC QUALIFICATIONS</h5>
                   <h6>
                     <b> 2022: Nanodegree , FullstackWeb developer</b>
                   </h6>
                   <li>Institution: ALX Programme (Udacity)</li>
-                  <h6>
+                  <h6 className="pt-3">
                     <b>2022: Nanodegree, AWS MachineLearning Foundations</b>
                   </h6>
-                  <li>Institution:Udacity</li>
+                  <li className="pb-3">Institution:Udacity</li>
                   <h6>
                     <b> 2015 - 2019:BSC Project Planning and Management</b>
                   </h6>
@@ -39,7 +39,22 @@ class Academics extends React.Component {
                 <h5 id="certifications">TRAININGS AND CERTIFICATIONS</h5>
                 <ul className="certs">
                   <li>
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/ERTKLTTNRCTD">
+                      Developing Back-End Apps with Node.js and Express
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.udemy.com/certificate/UC-607924a5-cad6-4d5b-a9d8-143a3b1413fb/">
+                      Modern React with Redux
+                    </a>
+                  </li>
+                  <li>
                     <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/4Y3KBAU92NFE">
+                      Python and Django Full Stack Web Developer Bootcamp
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ude.my/UC-a3397dea-7fc3-457c-baad-c4175726dfec">
                       DeepLearning.AI TensorFlow Developer
                     </a>
                   </li>

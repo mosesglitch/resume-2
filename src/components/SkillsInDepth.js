@@ -6,6 +6,24 @@ import {
   MDBCardText,
 } from "mdb-react-ui-kit";
 let skillsInDepth = {
+  Programming: ["Python", "C", "Javascript", "HTML", "CSS"],
+  "Web Development": [
+    "Django",
+    "Flask",
+    "Express",
+    "Javascript",
+    "ReactJS",
+    "APIs",
+    "Access Management",
+  ],
+  RDBMS: [
+    "SQL",
+    "NoSQL",
+    "Object Relational Mapping",
+    "DB Theory",
+    "DB Modelling",
+  ],
+
   "Data Analysis": [
     "Defining goal",
     "Data Exploration",
@@ -27,22 +45,6 @@ let skillsInDepth = {
     "Tableau",
     "Matplotlib",
     "Plotly",
-  ],
-  Programming: ["Python", "C", "Javascript", "HTML", "CSS"],
-  RDBMS: [
-    "SQL",
-    "NoSQL",
-    "Object Relational Mapping",
-    "DB Theory",
-    "DB Modelling",
-  ],
-  "Web Development": [
-    "Django",
-    "Flask",
-    "Javascript",
-    "ReactJS",
-    "APIs",
-    "Access Management",
   ],
 };
 

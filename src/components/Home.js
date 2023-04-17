@@ -7,29 +7,30 @@ import "./styles/Index.css";
 const inskill = [
   {
     id: 1,
-    icon: "table",
-    item: "Data Analysis",
-  },
-  {
-    id: 2,
-    icon: "chart-line",
-    item: "Data Science",
-  },
-  {
-    id: 3,
     icon: "globe",
     item: "Web Development",
   },
   {
-    id: 4,
+    id: 2,
     icon: "database",
     item: "RDBMS",
   },
   {
-    id: 5,
+    id: 3,
     icon: "laptop-code",
     item: "Programming",
   },
+  {
+    id: 4,
+    icon: "table",
+    item: "Data Analysis",
+  },
+  {
+    id: 5,
+    icon: "chart-line",
+    item: "Data Science",
+  },
+
   {
     id: 6,
     icon: "chart-pie",
